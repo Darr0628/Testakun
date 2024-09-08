@@ -2,13 +2,13 @@ proxies:
   - name: FAST
     server: quiz.vidio.com
     port: 443
-    type: client
+    type: trojan
     password: 570f7300-6da7-11ef-b7c1-1239d0255272
     skip-cert-verify: true
     sni: sg1-trojan.bonds.id
     network: ws
     ws-opts:
-      path: \/howdy
+      path: /howdy
       headers:
         Host: sg1-trojan.bonds.id
     udp: true
