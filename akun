@@ -1,6 +1,6 @@
 proxies:
   - name: FAST
-    server: quiz.vidio.com
+    server: sg1-trojan.bonds.id
     port: 443
     type: trojan
     password: 570f7300-6da7-11ef-b7c1-1239d0255272
