@@ -1,8 +1,8 @@
 proxies:
   - name: FAST
-    server: sg1-trojan.bonds.id
+    server: quiz.vidio.com
     port: 443
-    type: trojan
+    type: client
     password: 570f7300-6da7-11ef-b7c1-1239d0255272
     skip-cert-verify: true
     sni: sg1-trojan.bonds.id
@@ -12,4 +12,3 @@ proxies:
       headers:
         Host: sg1-trojan.bonds.id
     udp: true
- 
